@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="assets/profile.jpeg" alt="Profile Picture" data-testid="profilePicture">
+        <h2 data-testid="fullName">Lubabatu Ahmad</h2>
+        <h3 data-testid="jobTitle">Frontend Developer</h3>
+        <p data-testid="shortBio">
+            Passionate frontend developer with a love for building interactive and user-friendly web applications.
+        </p>
+        <p data-testid="currentLocation">Location: Kaduna, Nigeria</p>
+        <p data-testid="emailAddress">Email: lubabatuahmad60@.gmail.com</p>
+
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://github.com/lubsy09" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/lubabatu-ahmad-2a94b42a3/" target="_blank">LinkedIn</a>
+        </div>
+
+        <p class="time" data-testid="currentTimeUTC">UTC Time: <span id="utc-time"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
